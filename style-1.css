@@ -1,0 +1,15 @@
+.fl-hdr{
+	background: #fff;
+	padding: 15px 0;
+}
+.header-innr{
+	display: flex;
+	align-items: center;
+}
+.hdr-left{
+	/*float: left;*/
+}
+.hdr-rgt{
+	/*float: right;*/
+	margin-left: auto;
+}

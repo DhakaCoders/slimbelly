@@ -116,10 +116,10 @@ a,a:hover,a:focus,button:hover,button:focus {
 }
 body {
   background-color: rgb(0, 128, 128);
-  color: #000;
+  color: rgb(47, 47, 47);
   font-size: 20px;
   line-height: 1.2;
-  font-family: 'LatoLight';
+  font-family: 'LatoRegular';
 }
 img {
   max-width: 100%;
@@ -145,6 +145,7 @@ img {
 .fl-page-content-cntrl{
   background: #fff;
   border-radius: 20px;
+  margin-top: 20px;
 }
 .hide-md {
   display: block!important
@@ -165,7 +166,7 @@ img {
 .show-xs {
   display: none!important
 }
-p { margin: 0; margin-bottom: 30px; }
+p { margin: 0; margin-bottom: 15px; }
 a { word-wrap: break-word } 
 strong { font-weight:normal }
 .plr-30 {
