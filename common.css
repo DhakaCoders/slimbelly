@@ -254,7 +254,7 @@ h1,h2,h3,h4,h5,h6 {
       font-size: 35px;
     }
     h3 {
-      font-size: 26px;
+      font-size: 20px;
     }
     h4 {
       font-size: 20px;
@@ -270,20 +270,8 @@ h1,h2,h3,h4,h5,h6 {
     .show-sm{
         display: block!important;
     }
-    h1{
-      font-size: 35px;
-    }
-    h2{
-      font-size: 30px;
-    }
-    h3 {
-      font-size: 26px;
-    }
-    h4 {
-      font-size: 20px;
-    }
-    p br{
-        display: none;
+    body {
+        font-size: 19px;
     }
 }
 
@@ -297,21 +285,6 @@ h1,h2,h3,h4,h5,h6 {
     }
     body {
         font-size: 20px;
-    }
-    p{
-       margin-bottom: 20px;
-    }
-    h1{
-      font-size: 32px;
-    }
-    h2{
-      font-size: 28px;
-    }
-    h3 {
-      font-size: 25px;
-    }
-    h4 {
-      font-size: 20px;
     }
 
 }
