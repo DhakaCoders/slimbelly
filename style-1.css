@@ -11,6 +11,7 @@
 }
 a.hdr-logo{
 	display: inline-block;
+	max-width: 140px;
 }
 .hdr-rgt{
 	/*float: right;*/
