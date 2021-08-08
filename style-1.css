@@ -319,3 +319,34 @@ h3.pg-entry-hdr-sub-title{
 .fl-pkg-grd-cntlr-btm .fl-pkg-grd-col-btm-bdr{
 	background: #008057;
 }
+
+
+/*responsive */
+@media(max-width: 1199px){
+	.sb-pg-cntent-left{
+		padding-right: 0;
+	}
+}
+@media(max-width: 991px){
+	.sb-page-content-cntlr{
+		display: block;
+	}
+	.sb-pg-cntent-left{
+		width: 100%;
+		display: block;
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+	.sb-pg-cntent-rgt{
+		padding-left: 0;
+		width: 100%;
+	}
+}
+@media(max-width: 767px){
+	
+}
+@media(max-width: 575px){
+	
+}
