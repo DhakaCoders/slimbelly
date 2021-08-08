@@ -35,16 +35,16 @@ h3.pg-entry-hdr-sub-title{
 	font-weight: 500;
 	margin-bottom: 0;
 }
-.page-content-cntlr{
+.sb-page-content-cntlr{
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 20px;
 }
-.pg-cntent-left{
+.sb-pg-cntent-left{
 	width: 32%;
 	padding-right: 15px;
 }
-.pg-cntent-rgt{
+.sb-pg-cntent-rgt{
 	width: 68%;
 	padding-left: 40px;
 }
@@ -91,7 +91,7 @@ h3.pg-entry-hdr-sub-title{
 .fl-pkg-grd-col-bdr-solid:before {
     left: -1px;
 }
-.fl-pkg-grd-col-bdr-solid:before, .fl-pkg-grd-col-bdr-solid:after {
+/*.fl-pkg-grd-col-bdr-solid:before, .fl-pkg-grd-col-bdr-solid:after {
     content: "";
     background: #bdd4dc;
     position: absolute;
@@ -99,11 +99,17 @@ h3.pg-entry-hdr-sub-title{
     bottom: 2px;
     width: 1px;
     z-index: 1;
+}*/
+.mb-50{
+	margin-bottom: 50px;
 }
 .fl-pkg-grd-col {
     background: #f7f7f7;
     border: 3px solid #fff;
     border-radius: 8px;
+}
+.fl-pkg-grd-col-btm-bdr {
+    background: #d50001;
 }
 
 .fl-pkg-grd-col {
@@ -256,4 +262,60 @@ h3.pg-entry-hdr-sub-title{
 .ftr-btm{
 	height: 40px;
 	background: #fff;
+}
+.fl-pkg-grd-cntlr-btm .fl-pkg-grd-col{
+	background: #fff;
+	border: none;
+}
+.fl-pkg-grd-cntlr-btm .fl-pkg-grd-col-btm-bdr{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-left: 0;
+	position: relative;
+}
+.fl-pkg-grd-cntlr-btm .fl-pkg-grd-col-btm-bdr:after{
+	position: absolute;
+	top: -1px;
+	content: "";
+	height: 8px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: 3;
+}
+.fl-pkg-grd-desc-wrap-hdr{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+.fl-pkg-grd-desc-wrap-lft{
+	width: 60%;
+}
+.fl-pkg-grd-desc-wrap-rgt{
+	width: 40%;
+	padding-left: 10px;
+}
+.fl-pkg-grd-desc-wrap-lft-title{
+	margin-bottom: 1px;
+	color: #008057;
+
+}
+.fl-pkg-grd-desc-wrap-lft-sub-title{
+	font-size: 16px;
+	
+	margin-bottom: 0;
+}
+.fl-pkg-grd-desc-wrap{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 8px;
+}
+.fl-pkg-grd-desc p{
+	font-size: 17px;
+}
+.fl-pkg-grd-cntlr-btm .fl-pkg-grd-col-btm-bdr{
+	background: #008057;
 }
