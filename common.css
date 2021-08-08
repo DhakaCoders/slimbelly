@@ -114,12 +114,16 @@ a,a:hover,a:focus,button:hover,button:focus {
   text-decoration: none;
   outline: 0;
 }
+a:hover{
+  color: #FFC603;
+}
 body {
   background-color: rgb(0, 128, 128);
   color: rgb(47, 47, 47);
   font-size: 20px;
   line-height: 1.2;
-  font-family: 'LatoRegular';
+  font-family: inherit;
+  font-weight: 500;
 }
 img {
   max-width: 100%;
@@ -138,6 +142,21 @@ img {
   bottom: 0;
   z-index: 10;
 }
+.text-center{
+  text-align: center;
+}
+.color-red{
+  color: rgb(228, 59, 44);
+}
+.color-blue{
+  color: rgb(0, 128, 128);
+}
+.text-underline{
+  text-decoration: underline;
+}
+.text-underline:hover{
+
+}
 .container {
   max-width: 1200px;
   width: 100%;
@@ -145,6 +164,10 @@ img {
 .fl-page-content-cntrl{
   background: #fff;
   border-radius: 20px;
+  
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   margin-top: 20px;
 }
 .hide-md {
@@ -166,9 +189,12 @@ img {
 .show-xs {
   display: none!important
 }
-p { margin: 0; margin-bottom: 15px; }
+p { margin: 0; margin-bottom: 20px;line-height: 1.15; }
 a { word-wrap: break-word } 
-strong { font-weight:normal }
+strong { font-weight: 700;}
+.font-sixe-16{
+  font-size: 16px;
+}
 .plr-30 {
   padding-left: 30px!important;
   padding-right: 30px!important
@@ -200,12 +226,14 @@ h3 {
   font-size: 23px;
 }
 h4 {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
   line-height: 1.2;
+  margin-bottom: 15px;
+  font-weight: 700;
 } 
 
 @media(max-width: 1199px){
