@@ -257,7 +257,7 @@ h1,h2,h3,h4,h5,h6 {
       font-size: 20px;
     }
     h4 {
-      font-size: 20px;
+      font-size: 18px;
     }
     p br{
       display: none;
@@ -282,6 +282,14 @@ h1,h2,h3,h4,h5,h6 {
     }
     .show-xs{
         display: block!important;
+    }
+    body {
+        font-size: 20px;
+    }
+    .plr-20,
+    .plr-30{
+      padding-left: 0!important;
+      padding-right: 0!important;
     }
     body {
         font-size: 20px;
