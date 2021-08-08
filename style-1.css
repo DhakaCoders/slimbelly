@@ -41,12 +41,12 @@ h3.pg-entry-hdr-sub-title{
 	padding-top: 20px;
 }
 .pg-cntent-left{
-	width: 34%;
+	width: 32%;
 	padding-right: 15px;
 }
 .pg-cntent-rgt{
-	width: 66%;
-	padding-left: 45px;
+	width: 68%;
+	padding-left: 40px;
 }
 .upgrate-entry-image{
 	width: 100%;
@@ -132,7 +132,7 @@ h3.pg-entry-hdr-sub-title{
 }
 .fl-pkg-grd-col-hdr strong {
     padding: 5px 10px 9px 10px;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 45px;
     font-family: 'BarlowCondensed-Bold';
     text-shadow: 0px 2px #595653;
