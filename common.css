@@ -40,8 +40,8 @@
 
 @font-face {
   font-family: 'BarlowCondensed-Bold';
-  src: url('assets/fonts/BarlowCondensed-BoldBarlowCondensed-Bold.woff2') format('woff2'),
-    url('assets/fonts/BarlowCondensed-BoldBarlowCondensed-Bold.woff') format('woff');
+  src: url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff2') format('woff2'),
+    url('assets/fonts/BarlowCondensed-Bold/BarlowCondensed-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
