@@ -133,6 +133,7 @@ h3.pg-entry-hdr-sub-title{
     color: #fff;
     background-repeat: repeat-x!important;
     background-size: cover!important;
+    border-radius: 3px;
 }
 .fl-pkg-grd-col-hdr span {
     font-size: 32px;
@@ -378,9 +379,17 @@ h3.pg-entry-hdr-sub-title{
 		font-size: 20px;
 		text-align: center;
 	}
+	.pg-entry-hdr-logo{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+	}
 }
 @media(max-width: 767px){
-
+	.fl-hdr{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
 }
 @media(max-width: 575px){
 	.fl-pkg-grd-desc-wrap-lft-sub-title{
