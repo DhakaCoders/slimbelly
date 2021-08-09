@@ -82,7 +82,7 @@ h3.pg-entry-hdr-sub-title{
 	-webkit-transition: all 0.5s;
 }
 .pcrb-desc-upgrade-order a:hover{
-	opacity: .7;
+	opacity: .8;
 }
 .pcrb-desc-guarantee{
 	margin-bottom: 30px;
@@ -257,6 +257,10 @@ h3.pg-entry-hdr-sub-title{
 }
 .fl-creditcards a{
 	display: inline-block;
+}
+
+.sb-thanks p:first-child{
+	font-size: 23px;
 }
 
 /*packeg css*/
