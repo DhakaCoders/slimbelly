@@ -9,6 +9,16 @@
 }
 
 
+
+@font-face {
+  font-family: 'Barlow-Medium';
+  src: url('assets/fonts/Barlow-Medium/Barlow-Medium.woff2') format('woff2'),
+    url('assets/fonts/Barlow-Medium/Barlow-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: 'Barlow-Bold';
   src: url('assets/fonts/Barlow-Bold/Barlow-Bold.woff2') format('woff2'),
