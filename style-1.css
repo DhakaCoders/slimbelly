@@ -317,7 +317,7 @@ h3.pg-entry-hdr-sub-title{
 }
 .fl-pkg-grd-desc-wrap-lft-title{
 	margin-bottom: 1px;
-	color: #008057;
+	color: rgb(0, 128, 128);
 
 }
 .fl-pkg-grd-desc-wrap-lft-sub-title{
@@ -335,7 +335,7 @@ h3.pg-entry-hdr-sub-title{
 	color: #2f2f2f;
 }
 .fl-pkg-grd-cntlr-btm .fl-pkg-grd-col-btm-bdr{
-	background: #008057;
+	background: rgb(0, 128, 128);
 }
 
 
