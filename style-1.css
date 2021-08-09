@@ -77,6 +77,12 @@ h3.pg-entry-hdr-sub-title{
 .pcrb-desc-upgrade-order a{
 	display: inline-block;
 	max-width: 466px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.pcrb-desc-upgrade-order a:hover{
+	opacity: .7;
 }
 .pcrb-desc-guarantee{
 	margin-bottom: 30px;
