@@ -766,4 +766,7 @@ h3.upgrate-entry-sec-sub-title span{
 	.fl-pkg-grd-desc-wrap-lft-sub-title{
 		font-size: 14px;
 	}
+  .upgrate-entry-sec-sub-title br{
+    display: none!important;
+  }
 }
