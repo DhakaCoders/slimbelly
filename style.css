@@ -347,6 +347,54 @@ h3.pg-entry-hdr-sub-title{
 	display: block;
 	margin-bottom: 15px;
 }
+.upgrate-entry-sec{
+  margin-bottom: 15px;
+  background: #ABF2F0;
+  border-radius: 15px;
+  padding: 40px 20px 20px 20px;
+}
+h2.upgrate-entry-sec-title{
+  font-size: 34px;
+  color: #006875;
+  margin-bottom: 25px;
+}
+h3.upgrate-entry-sec-sub-title{
+  color: #000000;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+h3.upgrate-entry-sec-sub-title span{
+  color: #EB2028;
+}
+.upgrate-entry-sec-btn{
+  margin-bottom: 30px;
+}
+.upgrate-entry-sec-btn a{
+  display: inline-block;
+  max-width: 600px;
+}
+.upgrate-entry-sec > p{
+  font-size: 17px;
+  margin-bottom: 8px;
+  color: #0A0E0E;
+  
+}
+.upgrate-entry-sec > p strong{
+  font-weight: 900!important;
+}
+.upgrate-entry-sec-saving{
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+.upgrate-entry-sec-saving strong{
+  color: #006875;
+  font-size: 33px;
+  /*font-weight: 900!important;*/
+}
+.upgrate-entry-sec-saving strong span{
+  color: #EE161F;
+}
 .pg-cntent-rgt-btm-desc{
 	padding-top: 13px;
 }
