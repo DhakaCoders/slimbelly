@@ -353,6 +353,18 @@ h3.pg-entry-hdr-sub-title{
   border-radius: 15px;
   padding: 40px 20px 20px 20px;
 }
+.bg-transparent{
+  background: #FFFFEE;
+  border: 5px dotted rgb(50 167 172);
+}
+.color-skyblue{
+  color: rgb(50 167 172)!important;
+}
+.box-shadow{
+  box-shadow: 1px 0px 14px 1px rgba(0,0,0,0.68);
+  -webkit-box-shadow: 1px 0px 14px 1px rgba(0,0,0,0.68);
+  -moz-box-shadow: 1px 0px 14px 1px rgba(0,0,0,0.68);
+}
 h2.upgrate-entry-sec-title{
   font-size: 34px;
   color: #006875;
@@ -736,6 +748,16 @@ h3.upgrate-entry-sec-sub-title span{
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
+
+  h2.upgrate-entry-sec-title{
+    font-size: 30px;
+  }
+  h3.upgrate-entry-sec-sub-title{
+    font-size: 22px;
+  }
+  .upgrate-entry-sec-saving strong{
+    font-size: 28px;
+  }
 }
 @media(max-width: 575px){
 	.fl-pkg-grd-desc-wrap-lft-sub-title{
