@@ -724,6 +724,15 @@ h3.upgrate-entry-sec-sub-title span{
 }
 
 
+.sb-pg-cntent-left{
+  padding-right: 0;
+  width: 38%;
+}
+.sb-pg-cntent-rgt{
+  width: 62%;
+  padding-left: 45px;
+}
+
 /*responsive */
 @media(max-width: 1199px){
 	.sb-pg-cntent-left{
