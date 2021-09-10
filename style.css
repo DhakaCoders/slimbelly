@@ -369,13 +369,13 @@ h3.pg-entry-hdr-sub-title{
   -moz-box-shadow: 1px 0px 14px 2px rgba(0,0,0,0.35);
 }
 h2.upgrate-entry-sec-title{
-  font-size: 34px;
+  font-size: 32px;
   color: #006875;
   margin-bottom: 25px;
 }
 h3.upgrate-entry-sec-sub-title{
   color: #000000;
-  font-size: 26px;
+  font-size: 27px;
   margin-bottom: 40px;
 }
 h3.upgrate-entry-sec-sub-title span{
@@ -389,7 +389,7 @@ h3.upgrate-entry-sec-sub-title span{
   max-width: 600px;
 }
 .upgrate-entry-sec > p{
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 8px;
   color: #0A0E0E;
   
@@ -467,7 +467,7 @@ h3.upgrate-entry-sec-sub-title span{
 	margin-bottom: 50px;
 }
 .fl-pkg-grd-col {
-    background: #f7f7f7;
+    background: #fff;
     border: 3px solid #fff;
     border-radius: 8px;
 }
@@ -808,7 +808,7 @@ h3.upgrate-entry-sec-sub-title span{
     font-size: 30px;
   }
   h3.upgrate-entry-sec-sub-title{
-    font-size: 22px;
+    font-size: 24px;
   }
   .upgrate-entry-sec-saving strong{
     font-size: 28px;
