@@ -548,6 +548,25 @@ h3.upgrate-entry-sec-sub-title span{
   margin-bottom: 0;
 
 }
+.fl-pkg-price-only.up-sell-3{
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  font-family: inherit;
+}
+.fl-pkg-save-price.up-sell-3-pkg-save-price{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fl-pkg-save-price.up-sell-3-pkg-save-price strong{
+    font-size: 41px;
+    text-transform: uppercase;
+    background: #9BD3D5;
+    color: #EE161F;
+    padding: 8px 0;
+    font-weight: 600;
+    font-family: inherit;
+}
 /*.fl-pkg-price:before {
     content: "$";
     position: absolute;
